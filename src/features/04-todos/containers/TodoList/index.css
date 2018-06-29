@@ -1,0 +1,9 @@
+.todo-list-cont {
+  margin: 0 auto;
+  width: 800px;
+}
+
+.todo-list-cont .loading {
+  border: 1px solid #000;
+  padding: 22px 44px;
+}

@@ -1,0 +1,35 @@
+{
+  "name": "rr-ts-rxjs-tasks-solutions",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "json-server": "0.14.0",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-redux": "5.0.7",
+    "react-router-dom": "4.3.1",
+    "react-scripts-ts": "2.16.0",
+    "redux": "4.0.0",
+    "redux-devtools-extension": "2.13.5",
+    "redux-observable": "1.0.0",
+    "reselect": "3.0.1",
+    "rxjs": "6.2.1",
+    "rxjs-compat": "6.2.1",
+    "@types/react-redux": "6.0.3",
+    "@types/react-router-dom": "4.2.7"
+  },
+  "scripts": {
+    "start": "PORT=4000 react-scripts-ts start",
+    "build": "react-scripts-ts build",
+    "test": "react-scripts-ts test --env=jsdom",
+    "eject": "react-scripts-ts eject",
+    "json-server": "json-server ./server/db.json -p 4100 -r ./server/config/routes.json -S ./server/snapshots"
+  },
+  "devDependencies": {
+    "@types/jest": "^23.1.2",
+    "@types/node": "^10.3.6",
+    "@types/react": "^16.4.2",
+    "@types/react-dom": "^16.0.6",
+    "typescript": "^2.9.2"
+  }
+}
